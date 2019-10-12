@@ -1,7 +1,7 @@
 <?php
 namespace zongphp\exception\exception;
 
-use zongphp\response\Response;
+use zongphp\response\Build\Base as Response;
 
 class HttpResponseException extends \RuntimeException
 {
